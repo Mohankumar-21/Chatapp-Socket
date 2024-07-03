@@ -1,0 +1,21 @@
+.ChatPage-container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 100vh;
+    
+}
+
+
+.Users-container{
+ 
+}
+
+.Message-Container{
+  
+    background-color: rgba(176, 215, 250, 0.321);
+}
+
+.Contacts-Container{
+
+    background-color: rgba(214, 216, 216, 0.012);
+}

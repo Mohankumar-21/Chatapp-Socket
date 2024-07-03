@@ -1,0 +1,164 @@
+.Profile-Arrangement{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(232, 243, 254);
+    border: 10px solid rgb(193, 224, 251) ;
+}
+
+.Messages-alignment{
+    margin-top: 10px;
+    border: 10px solid rgb(193, 224, 251) ;
+}
+.image-align{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(10, 149, 10);
+    object-fit: cover;
+    padding: 2px;
+}
+
+
+.profile-account h5{
+   position: relative;
+   top: 13px;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.profile-account p{
+    position: relative;
+     top: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(103, 103, 103);
+}
+
+
+.rounded-image
+{
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(10, 149, 10);
+    object-fit: cover;
+    padding: 2px;
+}
+
+
+/* .Messages-alignment{
+    overflow-y: scroll;
+    height: 83vh;
+} */
+ 
+
+.scrollbar{
+    overflow-y: scroll;
+    height: 75vh;
+}
+
+
+.message-box{
+    display: flex;
+    gap: 10px;
+    padding: 5px 15px;
+    align-items: center;
+    border: 1px solid  #cdddfe;
+    /* box-shadow: 0.5px 0.5px 2px grey; */
+}
+
+
+
+.contact-info h3{
+    font-size: 20px;
+    position: relative;
+    top: 13px;
+    overflow: hidden;
+    max-width: 250px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.contact-info p{
+    position: relative;
+     top: 2px;
+     max-width: 250px;
+     overflow: hidden;
+     line-break: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.message-head{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+
+}
+
+
+.message-box:hover{
+    background-color: rgb(232, 243, 254);
+    cursor: pointer;
+}
+
+.Logout-align{
+    position: relative;
+    right: 0;
+    text-align: right;
+}
+
+.My-Account-alignment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.Logout-align button{
+   outline: none;
+   border: none;
+   background-color: rgb(232, 243, 254);
+}
+
+.Load-align{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width : 800px) {
+    .image-align{
+        height: 35px;
+    }
+    
+    
+    .profile-account h5{
+       font-size: 18px;   
+    }
+    
+    
+    .profile-account p{
+        font-size: 14px;
+  
+        
+    }
+    .contact-info h3{
+        max-width:100px ;
+    }
+    .contact-info p{
+        max-width: 100px;
+    }
+
+
+    .Profile-Arrangement{
+        padding: 5px;
+    }
+}
