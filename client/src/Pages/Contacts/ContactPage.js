@@ -134,7 +134,7 @@ const ContactPage = () => {
               </div>
             ))
           ) : (
-            <div>No conversations yet.</div>
+            <div className="no-convo" >Start new conversation!..</div>
           )}
         </div>
       </div>

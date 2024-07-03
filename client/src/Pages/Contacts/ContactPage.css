@@ -134,6 +134,15 @@
     justify-content: center;
 }
 
+
+.no-convo{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 @media screen and (max-width : 800px) {
     .image-align{
         height: 35px;
